@@ -29,5 +29,55 @@ Estos organizan la información por niveles.
 
 # Árbol DOM 
 
+html 
+ head 
+    —title
+    —/title
+ /head 
+ 
+body
+  header
+        h1 
+        h/ 
+        p
+        /p
+  /header 
 
+   main
+       section 
+                h2
+                /h2
+                 p
+                 /p
+
+                 time
+                 /time 
+         /section
+
+     section 
+             h2 
+             /h2
+          
+              h3
+              /h3 
+                 ul 
+                     li
+                    /li
+                 /ul 
+              h3 
+              /h3 
+                   ol
+                       li
+                       /li 
+                   /ol 
+      /section 
+
+ /main 
+      footer 
+           address 
+                  p
+                 /p
+       /footer 
+           body 
+    /html
 

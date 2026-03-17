@@ -30,19 +30,4 @@ Estos organizan la información por niveles.
 # Árbol DOM 
 
 
----- <html>
-      |__ <body>
-            ├── <header>
-            ├── <h1>
-            └── <strong>
-          ├── <main>
-             | ├── <section>
-             |     ├── <h2>
-             |     └── <time>
-             ├── <ul>
-             │   └── <li>
-             ├── <ol>
-             │   └── <li>
-             └── <h3>
-          └── <footer>
-                 └── <address>
+

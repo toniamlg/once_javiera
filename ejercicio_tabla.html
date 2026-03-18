@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de un torneo de videojuegos</title>
+    
+</head>
+<body>
+       
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 700px;
+      margin: 0 auto;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px 14px;
+      text-align: center;
+    }
+
+    
+    .encabezado-colegio {
+      background-color: #003366;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    
+    .info-estudiante {
+      background-color: #e8f0fe;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    
+    thead tr:last-child th {
+      background-color: #0055aa;
+      color: white;
+    }
+
+    
+    thead tr:first-child th {
+      background-color: #0055aa;
+      color: white;
+    }
+
+    
+    tbody tr:nth-child(even) {
+      background-color: #f0f7ff;
+    }
+
+    tbody tr:hover {
+      background-color: #d0e8ff;
+    }
+
+    
+    tbody td:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    
+    .aprobada {
+      color: #1a7a1a;
+      font-weight: bold;
+    }
+
+    
+    .reprobada {
+      color: #cc0000;
+      font-weight: bold;
+    }
+
+    
+    tfoot td {
+      background-color: #003366;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+           
+    <table border="1">
+  <thead>
+
+        <td colspan="5">Clasificación de un torneo de videojuegos</td> 
+    
+     <tr>
+      <th>Ciudades</th>
+      <th>Equipo</th>
+      <th>puntaje</th>
+      <th>Resultado final</th>
+      </tr>
+
+     <tbody>
+    <tr>
+      <td>Medellín</td>
+      <td>Mariposas</td>
+      <td>400</td>
+      <td>400/500</td>
+    </tr>
+
+    <tr>
+      <td>Bucaramanga</td>
+      <td>Los tigres</td>
+      <td>200</td>
+      <td>200/500</td>
+    </tr>
+
+    <tr>
+      <td>Cali</td>
+      <td>Los mejores</td>
+      <td>209</td>
+      <td>209/500</td>
+    </tr>
+     
+    <tr>
+        <td>Bogotá</td>
+        <td>Panteras</td>
+        <td>350</td>
+        <td>350/500</td>
+        
+    </tr>
+
+  </tbody>
+  </thead>
+
+  <tfoot>
+      <tr>
+         <td colspan="3">El ganador</td> 
+        <th rowspan="">Medellín</th>
+      </tr>
+    </tfoot>
+
+</table>
+</body>
+</html>

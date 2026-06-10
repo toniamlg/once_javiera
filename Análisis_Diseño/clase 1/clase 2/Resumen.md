@@ -1,5 +1,6 @@
 # Profundización del concepto
 ---
+# Clase 2
 
 **ingeniería del software**: Un **requerimiento** es una propiedad documentada que un sistema debe poseer para resolver un problema o lograr un objetivo. Es una **declaración verificable** de una funcionalidad, restricción o característica de calidad.
 ---
